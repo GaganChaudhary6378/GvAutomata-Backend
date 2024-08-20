@@ -8,7 +8,7 @@ dotenv.config({ path: "./.env" });
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:3001", "https://github.com", "http://localhost:3002"],
+    origin: ["http://localhost:3001", "https://github.com", "http://localhost:3002", "http://localhost:3000"],
     credentials: true, // Allows cookies and other credentials to be sent with the requests
 }));
 
